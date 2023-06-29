@@ -1,0 +1,124 @@
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);  
+  }
+  
+  #home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADD8E6;
+    color: #191970;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #191970;
+    color: #ADD8E6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #191970;
+    color: #FFFFFF;
+  }
+
+
+
+
+
+  #chatbot {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F0F8FF;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #conversation {
+    width: 450px;
+    height: 600px;
+    background-color: #06bbd3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0)
+  }
+
+  #instructions {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #034057;
+    color: #000008;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+    
+  }
+  
+  ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    width: 30%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  #example {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .body{
+    background-color: aqua;
+  }
+  
